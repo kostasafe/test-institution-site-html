@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ινστιτούτο Υγείας του Παιδιού</title><!--- titlo sto browser tab kai link gia ta styles.css -->
+        <link rel="stylesheet" href="styles.css" />
+
+    </head>
+<body class="main-body"> <!--- dhmiourgia class gia to body-->
+    <header class="main-header"><!---ksexwristo class header-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><!--- link gia ta fonts apo to google fonts--->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">  
+        <nav class="nav main-nav"><!---nav class gia xrhsh se css kai metatroph tou menu sto ekastote styl-->
+            <a href="index.html"><img src="images/logo1.jpg" alt="logo" /></a>
+            Ινστιτούτο Υγείας του Παιδιού
+            <ul>
+                <li><a href="index.html"> Αρχική Σελίδα</a></li>
+                <li><a href="yphresies_tmhmata.html"> Πληροφορίες και Υπηρεσίες</a></li>
+                <li><a href="draseis.html"> Δράσεις/Προγράμματα</a></li>
+                <li><a href="rantevou.html"> Ραντεβού</a></li>
+            </ul>
+        </nav>
+        <hr><!---grammh horizontal rule pou ksexwrizei to menu kai ton titlo me to logo apo to periexomeno kathe selidas -->
+    </header>
+    <img src="images/rantevou.jpeg" class="center"> <!--- center class gia stoixhsh eikonas sto kentro ths selidas-->
+    <!---eisagwgh tou ekastote image apo ton image fakelo-->
+    <h1 class="forma-title" >Ηλεκτρονική φόρμα προγραμματισμένης συνάντησης</h1>
+
+    <section class="forma-rantevou">
+        <h2>Συμπληρώστε τα στοιχεία σας για να κλείσετε κάποιο ραντεβού!</h2>
+        <strong>Έπειτα πατήστε Ολοκλήρωση!</strong>
+        <br>
+        <form action="/action_page.php"> <!--- ulopoihsh tou form me eidika kena gia eisagwgh keimenou kai koumpi gia oloklhrwsh-->
+          <ul>
+               <li><label for="fname">Όνομα:</label>
+               <input type="text" id="fname" name="fname"><br><br> </li>
+               <li><label for="lname">Επώνυμο:</label>
+               <input type="text" id="lname" name="lname"><br><br> </li>
+               <li><label for="phonenum">Τηλέφωνο Επικοινωνίας:</label>
+               <input type="text" id="phonenum" name="phonenum"><br><br> </li>
+               <li><label for="dayofservice">Ημέρα Ραντεβού:</label>
+               <input type="text" id="dayofservice" name="dayofservice"><br><br> </li>
+                <input type="submit" value="Ολοκλήρωση">
+         </ul>
+        </form> 
+    </section>
+
+    <hr>
+    <footer class="keimeno"> <!--- omoiws me to prohgoumeno kai ta epomena section dinw class keimeno-->
+        © Ινστιτουτο Υγειας του Παιδιου <img src="images/footer.jpeg"><!---ena aplo footer tou istotopou me mia gif fwtografia gia styl kai apopsh-->
+    </footer>
+</body>
+</html>
